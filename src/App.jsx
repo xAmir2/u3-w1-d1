@@ -27,8 +27,8 @@ function App() {
             alt="Cat 300x300"
           />
           <ImageComponent
-            url="https://placecats.com/200/200"
-            alt="Cat 200x200"
+            url="https://placecats.com/500/500"
+            alt="Cat 500x500"
           />
         </div>
       </section>

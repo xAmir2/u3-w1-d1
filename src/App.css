@@ -1,6 +1,22 @@
 button {
-  margin: 0 1em 0 1em;
+  margin: 1em 1em 1em 1em;
   padding: 1em 1.5em 1em 1.5em;
+  color: rgb(220, 245, 250);
+  border-radius: 20px;
+  border: 1px solid rgb(42, 88, 255);
+  font-weight: bold;
+  background-color: rgb(89, 241, 255);
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-family: cursive;
+}
+
+button:hover {
+    background-color: rgb(205, 247, 251);
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 .flex {
@@ -12,7 +28,7 @@ button {
 
 body {
   background-image: url(./assets/Lemme\ Think\ GIF.gif);
-  background-position: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -20,9 +36,10 @@ body {
 
 img {
   margin: 1em 0 1em 0;
+  border-radius: 10px;
 }
 
 section {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
